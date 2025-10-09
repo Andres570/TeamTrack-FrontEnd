@@ -1,0 +1,17 @@
+/*Paleta de colores */
+:root {
+  --color-background: #1a1a1a;   /* Fondo gris oscuro */
+  --color-surface: #2c2c2c;      /* Superficie */
+  --color-primary: #800020;      /* Vino tinto */
+  --color-secondary: #4b5563;    /* Gris oscuro */
+  --color-text: #e5e5e5;         /* Texto claro */
+}
+
+/*fondo oscuro a toda la página */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
